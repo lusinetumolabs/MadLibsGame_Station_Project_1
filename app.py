@@ -1,12 +1,7 @@
 import random
 
-
 def mad_libs_game():
     print("Thank you for playing my Mad Libs game! I hope you will enjoy it!")
-
-    # Define possible random choices
-    silly_words = ["flibber", "wobble", "snorkel", "gizmo"]
-    animals = ["bear", "fox", "wolf", "eagle"]
 
     while True:
         # Prompt user to choose a template
@@ -17,6 +12,7 @@ def mad_libs_game():
             number1 = input("Please enter a number: ")
             time_options = ["hours", "days", "weeks", "months"]
             measure_of_time = random.choice(time_options)
+            silly_words = ["flibber", "wobble", "snorkel", "gizmo"]
             silly_word = random.choice(silly_words)
             nouns1 = ["dog", "cat", "robot", "dragon"]
             nouns2 = ["apple", "book", "car", "hat"]
@@ -53,6 +49,7 @@ def mad_libs_game():
             adjective1 = input("Please enter an adjective (feeling): ")
             verb1 = input("Please enter a verb: ")
             adjective2 = input("Please enter another adjective (feeling): ")
+            animals = ["bear", "fox", "wolf", "eagle"]
             animal = random.choice(animals)
             verb2 = input("Please enter another verb: ")
             color = input("Please enter a color: ")
@@ -60,6 +57,7 @@ def mad_libs_game():
             adverb = input("Please enter an adverb ending in -ly: ")
             number = input("Please enter a number: ")
             measure_of_time = input("Please enter a measure of time (e.g., hours, days): ")
+            silly_words = ["flibber", "wobble", "snorkel", "gizmo"]
             silly_word = random.choice(silly_words)
             noun2 = input("Please enter another noun: ")
 
@@ -114,7 +112,6 @@ def mad_libs_game():
         if play_again != 'yes':
             print("Thank you for playing! Goodbye!")
             break
-
 
 # Call the function to test it
 mad_libs_game()
