@@ -1,10 +1,10 @@
 import random
 
 def mad_libs_game():
-    print("Thank you for playing my Mad Libs game! I hope you will enjoy it!")
+    print("Get ready for some Mad Libs fun! Can you create the craziest story ever? Let's find out!")
 
     while True:
-        # Prompt user to choose a template
+        # Prompt user to select a template for their story
         template_choice = input("Choose a template (1, 2, or 3):\n1. Hospital\n2. Camping\n3. Castle\n")
 
         if template_choice == '1':
@@ -71,7 +71,7 @@ def mad_libs_game():
 
         elif template_choice == '3':
             # Template 3: Castle
-            proper_nouns = ["Alice", "Bob", "Charlie", "Diana"]
+            proper_nouns = ["Armen", "Ani", "Tigran", "Nare"]
             proper_noun = random.choice(proper_nouns)
             adjective1 = input("Please enter an adjective: ")
             color = input("Please enter a color: ")
@@ -115,3 +115,5 @@ def mad_libs_game():
 
 # Call the function to test it
 mad_libs_game()
+
+
