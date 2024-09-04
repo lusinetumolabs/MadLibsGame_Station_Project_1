@@ -1,0 +1,17 @@
+Review of the MadLibs project by Lusine (GSL-12)
+
+The overall design 
+In overall, the program is well designed and it is easy to follow. The interactions of the various pieces of code make sense. Each part is well-structured and logically connected, allowing the program to function smoothly and achieve the desired outcome. No changes are required.
+
+Functionality 
+The program prompts the user to select a template for a story, after which it gathers several inputs to generate and display the story. The program functions as intended, seamlessly guiding the user through the process. Additionally, the use of the random library is appropriate and aligns with the program's requirements.
+
+Complexity 
+The program is already quite streamlined and easy to understand. The code could be made even more concise by using a for loop to prompt for input and store each response in a variable. This approach would reduce redundancy and make the code cleaner and easier to manage.
+One small suggestion for further simplification would be to avoid defining functions, as the problem is straightforward enough to be handled without them, however, the decision ultimately depends on the preference of the programmer.
+
+Naming 
+The developer chose excellent names for all variables, making the code clear and easy to understand.?
+
+Good Things 
+Overall, the program is well-written and meets all the requirements of the game. It's particularly commendable that the code includes input validation, prompting the user to re-enter data if the input is incorrect. Additionally, it's a nice touch that the program asks the user if they want to continue playing, enhancing the user experience.
